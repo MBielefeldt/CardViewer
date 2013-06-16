@@ -229,6 +229,11 @@
 				CLASSPREFIX = CardChooser;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "GN Resound";
+				TargetAttributes = {
+					08B0BEC9175B321B00C0F982 = {
+						DevelopmentTeam = 8AQ2Q5KM77;
+					};
+				};
 			};
 			buildConfigurationList = 08B0BEC5175B321B00C0F982 /* Build configuration list for PBXProject "CardViewer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,6 +386,7 @@
 		08B0BEEE175B321B00C0F982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CardViewer/CardViewer-Prefix.pch";
 				INFOPLIST_FILE = "CardViewer/CardViewer-Info.plist";
@@ -392,6 +398,7 @@
 		08B0BEEF175B321B00C0F982 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CardViewer/CardViewer-Prefix.pch";
 				INFOPLIST_FILE = "CardViewer/CardViewer-Info.plist";
@@ -419,6 +426,7 @@
 				08B0BEEF175B321B00C0F982 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
